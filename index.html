@@ -18,7 +18,7 @@
       <div class="container">
         <a href="#"><img src="images/logo.svg" alt="Manage logo" /></a>
         <nav class="primary-navigation">
-          <ul role="list" class="nav-list">
+          <ul aria-label="Primary" role="list" class="nav-list">
             <li><a href="#">Pricing</a></li>
             <li><a href="#">Product</a></li>
             <li><a href="#">About Us</a></li>
@@ -31,7 +31,7 @@
     </header>
 
     <main>
-      <section>
+      <section class="padding-block-900">
         <div class="container">
           <div class="even-columns">
             <div>
@@ -51,7 +51,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="padding-block-900">
         <div class="container">
           <div class="even-columns">
             <div>
@@ -67,19 +67,15 @@
             <div>
               <ul class="numbered-items" role="list">
                 <li>
-                  <h3 class="fs-600 fw-bold">
-                    Track company-wide progress
-                  </h3>
+                  <h3 class="fs-600 fw-bold">Track company-wide progress</h3>
                   <p>
-                    See how your day-to-day tasks fit into the wider vision.
-                    Go form tracking initatives to setting specific goals for
-                    a team, and monitoring overall progress.
+                    See how your day-to-day tasks fit into the wider vision. Go
+                    form tracking initatives to setting specific goals for a
+                    team, and monitoring overall progress.
                   </p>
                 </li>
                 <li>
-                  <h3 class="fs-600 fw-bold">
-                    Advanced built-in reports
-                  </h3>
+                  <h3 class="fs-600 fw-bold">Advanced built-in reports</h3>
                   <p>
                     Set internal delivery estimates and track progress toward
                     company goals. Our customisable dashboard helps you build
@@ -101,7 +97,65 @@
           </div>
         </div>
       </section>
+
+      <section class="carousel | padding-block-700">
+        <h2 class="fs-secondary-heading fw-bold">What they've said</h2>
+        <!-- Carousel here -->
+        <button class="button">Get Started</button>
+      </section>
+
+      <section class="cta | bg-accent-400 text-neutral-100 padding-block-700">
+        <div class="container">
+          <div class="even-columns">
+            <div>
+              <p class="fs-secondary-heading fw-bold">
+                Simplify how your team works today.
+              </p>
+            </div>
+            <div>
+              <button class="button" data-type="inverted">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="padding-block-700 bg-neutral-900 text-neutral-100">
+      <div class="container">
+        <div class="even-columns">
+          <div>
+            <a href="#"><img src="images/logo.svg" alt="Manage logo" /></a>
+            <ul role="list" aria-label="social links">
+              <li><a aria-label="facebook" href="#"></a></li>
+              <li><a aria-label="youtube" href="#"></a></li>
+              <li><a aria-label="twitter" href="#"></a></li>
+              <li><a aria-label="pinterest" href="#"></a></li>
+              <li><a aria-label="instagram" href="#"></a></li>
+            </ul>
+          </div>
+          <div>
+            <nav>
+              <ul role="list" aria-label="Footer">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div>
+            <form action="">
+              <input type="email" id="email" placeholder="Enter your email" />
+              <button class="button">Go</button>
+            </form>
+            <p class="fs-300">© 2021 Manage. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script type="module" src="/main.js"></script>
   </body>
