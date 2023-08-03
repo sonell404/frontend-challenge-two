@@ -1,4 +1,4 @@
-# frontend-challenge-two
+# Frontend Mentor Challenge
 Frontend Mentor Challenge - Responsive Website
 
 https://sonell404.github.io/frontend-challenge-two/
